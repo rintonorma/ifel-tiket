@@ -1,2 +1,1 @@
-# du-tiket
 # ifel-tiket
