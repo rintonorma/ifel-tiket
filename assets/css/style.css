@@ -78,7 +78,7 @@ button:focus {
   box-shadow: none!important;
 }
 a:hover{
-  color: #dbb86f;
+  color: #193d77;
 }
 section{
   position: relative;
@@ -570,6 +570,9 @@ section{
   z-index: 3;
 }
 .swal2-styled.swal2-cancel, .swal2-styled.swal2-confirm{
+  font-family: revert;
+}
+.swal2-styled.swal2-cancel{
   color: #000!important;
 }
 .swal2-actions{

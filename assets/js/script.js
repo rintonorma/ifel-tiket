@@ -140,7 +140,7 @@ function confirmModal() {
       text: "Apakah anda yakin ingin melanjutkan proses pembayaran?",
       // icon: 'warning',
       showCancelButton: true,
-      confirmButtonColor: '#dbb76f',
+      confirmButtonColor: '#193d77',
       cancelButtonColor: '#ccc',
       confirmButtonText: 'Lanjutkan',
       cancelButtonText: 'Batal'
@@ -157,7 +157,7 @@ function confirmPayment() {
       text: "Apakah anda yakin bayar dengan Virtual Account BCA? Anda tidak dapat mengubah layanan nanti",
       // icon: 'warning',
       showCancelButton: true,
-      confirmButtonColor: '#dbb76f',
+      confirmButtonColor: '#193d77',
       cancelButtonColor: '#ccc',
       confirmButtonText: 'Lanjutkan',
       cancelButtonText: 'Batal'
@@ -174,7 +174,7 @@ function confirmPaymentNusapay() {
       text: "Apakah anda yakin bayar dengan Nusapay? Anda tidak dapat mengubah layanan nanti",
       // icon: 'warning',
       showCancelButton: true,
-      confirmButtonColor: '#dbb76f',
+      confirmButtonColor: '#193d77',
       cancelButtonColor: '#ccc',
       confirmButtonText: 'Lanjutkan',
       cancelButtonText: 'Batal'
@@ -191,7 +191,7 @@ function cancelModal() {
       text: "Apakah anda yakin ingin membatalkan pemesanan?",
       // icon: 'warning',
       showCancelButton: true,
-      confirmButtonColor: '#dbb76f',
+      confirmButtonColor: '#193d77',
       cancelButtonColor: '#ccc',
       confirmButtonText: 'Batalkan',
       cancelButtonText: 'Kembali'
@@ -205,10 +205,10 @@ function cancelModal() {
 function submitQR() {
     Swal.fire({
       title: 'Telah Diklaim',
-      text: "Tiket #1 Tribun VIP Dewa United VS PERSITA",
+      text: "Tiket #1 iFel NATIONAL CHAMPIONSHIP",
       // icon: 'warning',
       showCancelButton: false,
-      confirmButtonColor: '#dbb76f',
+      confirmButtonColor: '#193d77',
       cancelButtonColor: '#ccc',
       confirmButtonText: 'OK',
       cancelButtonText: 'Batal'
