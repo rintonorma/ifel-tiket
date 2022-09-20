@@ -180,7 +180,8 @@ function confirmPaymentNusapay() {
       cancelButtonText: 'Batal'
     }).then((result) => {
       if (result.isConfirmed) {
-        window.location.href = `./how-to-nusapay.html`
+        $("body").append(`<div class="loader"><img src="assets/img/ajax-loader.gif" width="32px" /></div>`);
+        // window.location.href = `./how-to-nusapay.html`
       }
     })
 }
